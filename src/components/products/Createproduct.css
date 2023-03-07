@@ -1,0 +1,119 @@
+.create_card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.create{
+    margin:4rem 0;
+    width: 100%;
+    background-image: linear-gradient(0 ,#c6ffdd, #fbd786, #f7797d);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem 0.1rem #333;
+}
+.create_images{
+    width: 100%;
+    background-color: white;
+    border-radius: 4rem;
+    border:0.1rem solid #333;
+    height: 100%;
+    position: relative;
+}
+.create_images img{
+    width: 100%;
+    height:100%;
+    border-radius: 4rem;
+}
+.image_create{
+    margin-top: 8rem;
+    width: 100%;
+    height: 40rem;
+    padding:1rem;
+}
+.button_create{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.button_create-input{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button_create-input input{
+    width: 29%;
+}
+.create_form{
+    width: 100%;
+    padding:1rem 0;
+}
+.create_head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.create_body{
+    width: 100%;
+}
+.create_input_form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.create_input_form input{
+    width: 90%;
+    height: 5.5rem;
+    border-radius: 4rem;
+    padding-left: 1.6rem;
+    font-size: 1.5rem;
+    outline: none;
+}
+.create_input_form textarea{
+    width: 90%;
+    resize: vertical;
+    border-radius: 4rem;
+    padding: 1.6rem;
+    font-size: 1.5rem;
+    outline: none;
+}
+.select_form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.select_form_option{
+    width: 20%;
+    height: 4rem;
+    border-radius: 4rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+.create_button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.create_button button{
+    width: 30%;
+    border-radius: 4rem;
+    height: 4rem;
+    background-color: green;
+    color:white;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.create_button button:hover{
+    transform: scale(1.05);
+}

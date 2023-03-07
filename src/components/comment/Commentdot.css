@@ -1,0 +1,30 @@
+.dot_comment{
+    position: absolute;
+    top: 1rem;
+    right:2rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.delete_form{
+    position: absolute;
+    top:4rem;
+    right:1rem;
+    width: 4rem;
+    height: 2rem;
+    border: 0.1rem solid #333;
+    cursor: pointer;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.delete_form:hover{
+    transform: scale(1.05);
+}

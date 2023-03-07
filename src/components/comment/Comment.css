@@ -1,0 +1,43 @@
+.comment_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding:2rem 0;
+}
+.image_comment{
+    width: 50%;
+    height: 4rem;
+    display: flex;
+}
+.image_comment img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.image_comment textarea{
+    width: 80%;
+    min-height: 4rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 4rem;
+    margin:0 1rem;
+    outline: none;
+    resize: vertical;
+}
+.image_comment button{
+    width: 10rem;
+    cursor: pointer;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+}
+.image_comment button:active{
+    transform: scale(1.15);
+}
+.login_comment{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding:3rem 0;
+    font-size: 1.5rem;
+}

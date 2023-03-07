@@ -1,0 +1,41 @@
+.user_avatar{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.user_avatar_name{
+    display: flex;
+    align-items: center;
+}
+.infor_user{
+    position: relative;
+}
+.infor_table{
+    position: absolute;
+    top:100%;
+    left:40%;
+    right:0;
+    border-radius: 3rem;
+    box-shadow: 0 0 1rem 0.1rem #333;
+    background-color: white;
+    display: none;
+}
+#infor_ul{
+    display: flex;
+    flex-direction: column;
+}
+.infor_table ul li{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color:black;
+    padding:1.4rem 0;
+    border-bottom: 0.1rem solid #333;
+}
+.infor_table ul li:last-child{
+    border-bottom: none;
+}
+
+.infor_user:hover .infor_table{
+    display: block;
+}

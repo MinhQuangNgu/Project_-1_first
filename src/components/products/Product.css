@@ -1,0 +1,99 @@
+.card{
+    width: 100%;
+    height: 45rem;
+    background-image: linear-gradient(180deg,#c6ffdd, #fbd786, #f7797d);
+    box-shadow: 0 0 1rem 0.5rem #333;
+    margin-top: 5rem;
+    padding:1rem;
+    border-radius: 2rem;
+    transition: all ease 0.2s;
+    position: relative;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card_image{
+    width: 100%;
+    height: 55%;
+}
+
+.card_infor{
+    width: 100%;
+    height: 40%;
+}
+h1{
+    margin:0;
+}
+.title_card{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#F5F5DC;
+    font-size: 1.5rem;
+}
+.description_card{
+    width: 100%;
+    height:27%;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+.price_sold_card{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-weight: 800;
+    color:green;
+}
+.button_card{
+    width: 100%;
+    height: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button_card .Link{
+    width: 60%;
+    height:90%;
+}
+.button_card .Link button{
+    width: 100%;
+}
+.button_card button{
+    width: 60%;
+    height:90%;
+    background-color: green;
+    color:white;
+    border-radius: 4rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+@media only screen and (max-width:739px){
+    .button_card button{
+        width: 60%;
+        height:90%;
+        background-color: green;
+        color:white;
+        border-radius: 4rem;
+        cursor: pointer;
+        font-size: 0.7rem;
+    }
+}
+.button_card button:hover{
+    transform: scale(1.05);
+}
+.lazy_load{
+    width: 100%;
+    height: 100%;
+    background-position: contain;
+    border-radius: 2rem;
+    transform: scale(0.5);
+    transition:all 0.5s ease;
+}
+.lazy_load.active{
+    transform: scale(1);
+}

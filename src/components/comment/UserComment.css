@@ -1,0 +1,35 @@
+.users_comment{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding:1rem 0 2rem 0;
+    flex-wrap: wrap;
+}
+.comment_form{
+    width: 80%;
+    display:flex;
+    margin-bottom: 3rem;
+    position: relative;
+}
+.comment_form img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.content_form{
+    width: 90rem;
+    background-color: white;
+    border-radius: 2rem;
+    padding:0 2rem 1rem 2rem;
+}
+.content_form h1{
+    font-size: 2rem;
+    margin:1rem 0;
+}
+.content_form span{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.05rem;
+}
